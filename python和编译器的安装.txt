@@ -29,3 +29,34 @@ cl.exe' failed with exit status2   （一直解决不了）
 结论：pycharm最好的配置：
 1. python2.7+Microsoft Visual C++ Compiler for Python 2.7 
 2. python3.5(Anaconda)+Visual Studio 2015 Community
+
+
+----------------------------------------------------------
+python版本和vc++版本的对应
+Python version 	VC++ version
+2.5.6 	7.1
+2.6.9 	9.0
+2.7.6 	9.0
+3.2.3 	9.0
+3.3.5 	10.0
+3.4.0 	10.0
+3.5.0 	14.0
+-----------------------------------------------------------
+
+VC++版本和Visual Studio版本的对应
+VC++ version 	_MSC_VER 	    Alternative name 	C runtime 	C++ runtime
+1.0 	800 	  	                              MSVCRT10.DLL 	 
+2.0 	900 	  	                              MSVCRT20.DLL 	 
+4.0 	1000 	  	                              MSVCRT40.DLL 	 
+4.2 	1020 	  	                              MSVCRT.DLL 	 
+5.0 	1100 	Visual Studio 97 	  MSVCRT.DLL 	  MSVCP50.DLL
+6.0 	1200 	  	                MSVCRT.DLL 	  MSVCP60.DLL
+7.0 	1300 	Visual Studio 2002 	MSVCR70.DLL 	MSVCP70.DLL
+7.1 	1310 	Visual Studio 2003 	MSVCR71.DLL 	MSVCP71.DLL
+8.0 	1400 	Visual Studio 2005 	MSVCR80.DLL 	MSVCP80.DLL
+9.0 	1500 	Visual Studio 2008 	MSVCR90.DLL 	MSVCP90.DLL
+10.0 	1600 	Visual Studio 2010 	MSVCR100.DLL 	MSVCP100.DLL
+11.0 	1700 	Visual Studio 2012 	MSVCR110.DLL 	MSVCP110.DLL
+12.0 	1800 	Visual Studio 2013 	MSVCR120.DLL 	MSVCP120.DLL
+14.0 	1900 	Visual Studio 2015 	See notes 	See notes
+
